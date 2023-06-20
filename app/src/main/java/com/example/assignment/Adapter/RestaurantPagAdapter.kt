@@ -61,6 +61,7 @@ class RestaurantPagAdapter() : PagingDataAdapter<Businesses, RestaurantPagAdapte
 
             override fun areContentsTheSame(oldItem: Businesses, newItem: Businesses) =
                 oldItem == newItem
+
         }
     }
 }
